@@ -250,6 +250,13 @@ hr.small {
   .map {
     height: 75%;
   }
+  .header a {
+    width: 50%;
+    margin: 5px;
+  }
+  .hire-btn {
+    display: none;
+  }
 }
 
 /* Footer */
