@@ -41,7 +41,7 @@
 					<?php echo Blog::slogan() ?>
 				</span>
 			</a>
-			<img class="menu-icon" src="../css/img/menu.png" />
+			<img class="menu-icon" src="img/menu.png" />
 		</header>
 
 		<!-- MAIN -->
@@ -85,6 +85,9 @@
 						scrollTop: 0
 					}, 600);
 					return false;
+				});
+				$('.menu-icon').click(function() {
+					$('#sidebar').slideToggle();
 				});
 			</script>
 		</footer>
