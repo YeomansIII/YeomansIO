@@ -1,0 +1,16 @@
+<?php
+
+$theme = array
+(
+	'name'=>'My Simpler',
+	'description'=>'Official Nibbleblog theme',
+	'notes'=>'Disqus and Facebook commments supported',
+	'author'=>'Jason Yeomans, Diego Najar',
+	'version'=>'4.0',
+	'last_update'=>'09/30/2015', // dd/mm/yyyy
+	'url'=>'http://www.nibbleblog.com', // http://xxxxxxxxxxxxx
+	'template'=>array('blog'=>'default.bit', 'post'=>'default.bit', 'page'=>'default.bit'),
+	'version_supported'=>array('4.0','4.0.1') // Nibbleblog version supported
+);
+
+?>

@@ -113,7 +113,8 @@ class Post {
 		if( $Comment->disqus_enabled() )
 		{
 			$url = Url::post($post, true);
-			return '<a href="'.$url.'#disqus_thread">'.$Language->get('COMMENTS').'</a>';
+			#return '<a href="'.$url.'#disqus_thread">'.$Language->get('COMMENTS').'</a>';
+			return '<a href="'.$url.'#disqus_thread">Comments</a>';
 		}
 		elseif( $Comment->facebook_enabled() )
 		{
