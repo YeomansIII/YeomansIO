@@ -58,6 +58,10 @@ BLOG :: Head
 #blog-head span.blog-slogan {
   color: #777777;
 }
+.menu-icon {
+  float: right;
+  display: none;
+}
 
 /*
 ========================================================================
@@ -153,4 +157,19 @@ Nibbleblog Styles
 .nb-align-center {
   display: block;
   margin: 0 auto 1em;
+}
+@media only screen and (max-width: 767px) {
+  .menu-icon {
+    float: right;
+    display: block;
+  }
+  #left {
+    margin-right: 0;
+  }
+  #sidebar {
+    float: none;
+    width: 100%;
+    text-align: center;
+    font-size: 4.5em;
+  }
 }
