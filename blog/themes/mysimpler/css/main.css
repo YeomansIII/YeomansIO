@@ -151,7 +151,7 @@ Nibbleblog Styles
   margin: 0 1em 1em 0;
 }
 .nb-align-right {
-  float: right;
+  0 float: right;
   margin: 0 0 1em 1em;
 }
 .nb-align-center {
@@ -159,9 +159,13 @@ Nibbleblog Styles
   margin: 0 auto 1em;
 }
 @media screen and (max-width: 767px) {
+  body {
+    font-size: 100%;
+  }
   .menu-icon {
     float: right;
     display: block;
+    height: 45px;
   }
   #left {
     margin-right: 0;
