@@ -40,7 +40,7 @@
 					<?php echo Blog::slogan() ?>
 				</span>
 			</a>
-			<img class="menu-icon" src="img/menu.png" />
+			<img class="menu-icon" src="../css/img/menu.png" />
 		</header>
 
 		<!-- MAIN -->
