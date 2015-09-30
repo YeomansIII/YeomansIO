@@ -165,7 +165,10 @@ Nibbleblog Styles
   .menu-icon {
     float: right;
     display: block;
-    height: 45px;
+    height: 4em;
+  }
+  #container {
+    min-width: 300px;
   }
   #left {
     margin-right: 0;
